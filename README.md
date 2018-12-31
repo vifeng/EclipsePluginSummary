@@ -23,7 +23,7 @@ Deux fichiers manifestes: META-INF/MANIFEST.MF et plug-in.xml et les fichiers ja
 
 *Note: Il devrait déjà être installé sur les dernières versions d'Eclipse. Si ce n'est pas le cas, suivre le Step1 de ce lien* https://medium.com/@invictus42/creating-your-first-eclipse-plugin-9b1b5ba33b58 
 
-## Phase de développement
+## Phases de développement
 1. Sous éclipse faire "Nouveau projet" > "Projet de plug-in". Renseigner les champs, indiquer si le plugin va contribuer à l'interface utilisateur.
 2. Choisir le template de l'extension la plus adaptée à la création de votre plugin. il est possible d'en choisir plusieurs. 
 3. Configuration du fichier plugin.xml
