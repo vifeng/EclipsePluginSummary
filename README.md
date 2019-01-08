@@ -44,7 +44,7 @@ il est conseillé sous arguments de mettre la commande -clean pour forcer la rel
 +	**Runtime ou Exécution** 
 	pour inclure des bibliothèques ou obtenir des informations sur les bibliothèques.
 +	**Extensions** 
-	c'est l'architecture du plugin. Décrit les fonctionnalités qui seront apportées à Eclipse ou à un autre plugin. On peut se servir de dépendance telle que le point d'extension : actionSets. Dans cet exemple, actionSets contient un jeu d'action (actionSet), une action (un bouton) et un menu pour déclencher le plugin.
+	C'est un ensemble de features Eclipse et de plug-ins conçus pour étendre les fonctionnalités des produits Eclipse déjà installés. Les extensions sont installées séparément et utilisées uniquement avec les produits inhérents à Eclipse. C'est l'architecture du plugin. Décrit les fonctionnalités qui seront apportées à Eclipse ou à un autre plugin. On peut se servir de dépendance telle que le point d'extension : actionSets. Dans cet exemple, actionSets contient un jeu d'action (actionSet), une action (un bouton) et un menu pour déclencher le plugin.
 +	**Points d'extensions** 
 	 permet d'offrir des fonctionnalités pour d'autres plugins. Il est nécessaire d'écrire un schéma, avec l'aide de l'éditeur, pour que l'exécution du point d'extension se fasse correctement. le schéma sera utilisé par tous les clients du point d'extension.
 	 Eclipse en possède beaucoup pour simplifier nos développements de plugin. Ex.: org.eclipse.ui.actionSets est un point d'extension
